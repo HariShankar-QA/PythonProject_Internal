@@ -23,6 +23,7 @@ class Test_001:
         lp.accept_alert()
         self.logger.info("Logged In successfully")
         if fp.prod_click() == "Products":
+            #Q. Get the Product Sub class
             assert True
             self.logger.info("Login Successful")
         else:

@@ -1,0 +1,23 @@
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Pytest generated files
+.pytest_cache/
+htmlcov/
+allure-results/
+allure-report/
+
+# Environment secrets
+.env
+
+# Logs
+Logs/*.log
+
+# PyCharm settings
+.idea/
